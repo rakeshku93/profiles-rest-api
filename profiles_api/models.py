@@ -1,6 +1,6 @@
 from django.db import models
-# """These are the standard base classes that you need to use when overriding or customizing the
-# default Django user model this is described in the Django official"""
+# These are the standard base classes that you need to use when overriding or customizing the
+# default Django user model this is described in the Django official
 from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.models import BaseUserManager
